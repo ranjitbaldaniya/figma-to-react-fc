@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #021b9c 0%, #0e34b5 49.48%, #1d57ec 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.logo-div {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu-div ul {
+  list-style: none;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-div ul li {
+  margin: 20px 10px;
+}
+/* .btn-div {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+} */
+.conatct-btn {
+  padding: 10px 25px;
+  border: 1px solid #ffffff;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: #ffff;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.talk-btn {
+  padding: 10px 25px;
+  border: 1px solid #ffffff;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: black;
+  background-color: #f9de58;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+}
