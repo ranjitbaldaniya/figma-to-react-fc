@@ -30,7 +30,7 @@ const Dashboard = () => {
         <div className="cards-div" >
           {Data.map((item) => (
             <div className="single-card" key={item.id}>
-              <div style={{ display: "flex", justifyContent: "center" }}>
+              <div className="inside-div">
                 <img src={item.image} alt="icon image" height={43} width={43} />
               </div>
               <h2>{item.heading}</h2>
