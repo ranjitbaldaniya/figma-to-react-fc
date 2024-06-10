@@ -4,6 +4,8 @@ import Navbar from "./component/navbar/Navbar";
 import Dashboard from "./component/dashboard/Dashboard";
 import SecondPage from "./component/secondPage/SecondPage";
 import TiredPage from "./component/tiredPage/TiredPage";
+import FourthPage from "./component/fourthPage/FourthPage";
+import FifthPage from "./component/firftPage/FifthPage";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Dashboard />
       <SecondPage />
       <TiredPage />
+      <FourthPage />
+      <FifthPage />
     </div>
   );
 }

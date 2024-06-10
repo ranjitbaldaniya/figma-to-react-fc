@@ -1,0 +1,101 @@
+.fourthPage {
+  width: 100%;
+}
+
+.fourthPageHeading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.fourthPageHeading h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  color: #00106d;
+  text-transform: uppercase;
+}
+
+.fourthPageHeading .highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.fourthPageHeading .highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px; /* Adjust this value as needed */
+  height: 4px; /* Adjust this value as needed */
+  background-color: #f9de58cc;
+  z-index: -1;
+}
+
+.fourthPenal {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.leftpenal {
+  width: 60%;
+}
+.checkdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.checkdiv::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(
+    20px + 10px + 2px
+  ); /* Image width (20px) + padding (5px) + border (1px) */
+  right: 0;
+  height: 2px;
+  background-color: #ddd;
+  z-index: -1;
+}
+.checkdiv img {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.checkcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkHeding h3 {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  width: 200px;
+}
+.checkPera {
+  margin-left: 20px;
+}
+
+.checkPera p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.rightpenal {
+  margin-left: 40px;
+  width: 40%;
+}

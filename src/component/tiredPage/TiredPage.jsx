@@ -26,46 +26,50 @@ const TiredPage = () => {
       <div className="cards-div1">
         <div className="first-row">
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item1.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item2.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item3.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item4.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item5.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item6.svg" alt="svg images" />
           </div>
         </div>
       </div>
 
-      <div className="cards-div1">
+      <div className="cards-div2">
         <div className="first-row" style={{ marginBottom: "20px" }}>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item7.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item8.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item9.svg" alt="svg images" />
           </div>
           <div className="card">
-            <p>Logo</p>
+            <img src="./images/item10.svg" alt="svg images" />
           </div>
         </div>
       </div>
 
-
       <div className="banner-row">
-        <h2 style={{marginBottom:"20px"}} >hello</h2>
+        <img
+          src="./images/CTA.svg"
+          alt="svg images"
+          width="100%"
+          height="auto"
+        />
       </div>
     </div>
   );
